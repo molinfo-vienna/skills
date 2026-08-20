@@ -11,7 +11,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 
-SCRIPTS = Path(__file__).parents[1] / "nerdd-molecular-predictions" / "scripts"
+SCRIPTS = Path(__file__).parents[1] / "skills" / "nerdd-molecular-predictions" / "scripts"
 
 LIST_MODULES_SCRIPT = SCRIPTS / "list_modules.py"
 SPEC = importlib.util.spec_from_file_location("nerdd_list_modules", LIST_MODULES_SCRIPT)
